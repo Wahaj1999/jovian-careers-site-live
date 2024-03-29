@@ -1,0 +1,22 @@
+[33mcommit 68b06e92b08a528e8816fd478bf78010fa162407[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Wahaj1999 <165190139+Wahaj1999@users.noreply.github.com>
+Date:   Thu Mar 28 16:31:20 2024 +0000
+
+    Adding the HTML and CSS files
+
+ src/banner.jpg | Bin [31m0[m -> [32m163885[m bytes
+ src/index.html | 197 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ src/styles.css | 180 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ src/team.jpg   | Bin [31m0[m -> [32m494675[m bytes
+ 4 files changed, 377 insertions(+)
+
+[33mcommit bc1d4b3aab7b6d8828793c9dcc9a6cbff73c534b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Wahaj1999 <165190139+Wahaj1999@users.noreply.github.com>
+Date:   Wed Mar 27 22:46:27 2024 +0500
+
+    Initial commit
+
+ .gitignore | 130 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m+++++++++++++++++[m
+ README.md  |   2 [32m++[m
+ 3 files changed, 153 insertions(+)
