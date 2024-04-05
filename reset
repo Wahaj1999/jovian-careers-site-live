@@ -1,22 +1,30 @@
-[33mcommit 68b06e92b08a528e8816fd478bf78010fa162407[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
-Author: Wahaj1999 <165190139+Wahaj1999@users.noreply.github.com>
-Date:   Thu Mar 28 16:31:20 2024 +0000
-
-    Adding the HTML and CSS files
-
- src/banner.jpg | Bin [31m0[m -> [32m163885[m bytes
- src/index.html | 197 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
- src/styles.css | 180 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
- src/team.jpg   | Bin [31m0[m -> [32m494675[m bytes
- 4 files changed, 377 insertions(+)
-
-[33mcommit bc1d4b3aab7b6d8828793c9dcc9a6cbff73c534b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
-Author: Wahaj1999 <165190139+Wahaj1999@users.noreply.github.com>
-Date:   Wed Mar 27 22:46:27 2024 +0500
-
-    Initial commit
-
- .gitignore | 130 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
- LICENSE    |  21 [32m+++++++++++++++++[m
- README.md  |   2 [32m++[m
- 3 files changed, 153 insertions(+)
+[1mdiff --git a/src/index.html b/src/index.html[m
+[1mindex e6d2b06..6b97258 100644[m
+[1m--- a/src/index.html[m
+[1m+++ b/src/index.html[m
+[36m@@ -2,7 +2,6 @@[m
+ <html lang="en">[m
+ [m
+ <head>[m
+[31m-    charset="UTF-8">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <meta name="description" content="Learn about job openings at Jovian and submit your application now">[m
+     <meta name="keywords" content="data science, software development, jobs">[m
+[36m@@ -14,7 +13,7 @@[m
+     <meta name="twitter:title" content="Jovian Careers">[m
+     <meta name="twitter:description" content="Learn about job openings at Jovian and submit your application now">[m
+     <meta name="twitter:image" content="/jovian_meta.png">[m
+[31m-    <title>Jovian Careers | Build a Succesful Career in Tech</title>[m
+[32m+[m[32m    <title>Jovian Careers</title>[m
+     <link rel="icon" href="/jovian_favicon.png" type="image/x-icon">[m
+     <link rel="preconnect" href="https://fonts.googleapis.com">[m
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[36m@@ -30,7 +29,7 @@[m
+     <img id="banner" src="banner.jpg" alt="Banner" height="240">[m
+ [m
+     <h1>[m
+[31m-     Welcome to Jovian [m
+[32m+[m[32m     About Jovian[m[41m [m
+     </h1>[m
+ [m
+     <div id="about">[m
